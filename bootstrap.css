@@ -51,7 +51,6 @@
     cursor: pointer;
 }
 #son{
-    border-top: 1px solid #e0e0e0;
     display: grid;
     grid-template-columns: 1fr 2fr 150px;
     margin: 20px;
@@ -68,15 +67,12 @@ body{
     background-color:rgb(179, 170, 158)
 }
 .house{
-    color:darkmagenta
+    color:saddlebrown
 }
 #photoblock{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 2%;
-    margin: 2%;
-    gap: 10px;
 
+    margin-top: 200px;
+    gap: 10px;
 }
 
 
