@@ -1,0 +1,148 @@
+.navbar-new-top{
+    background: #fff;
+}
+.navbar-brand{
+    padding-top: 3%;
+    font-weight: 600;
+    font-size: 50px ;
+}
+.navbar-brand img{
+    width: 20%;
+}
+.navbar-new-top ul{
+    margin-right: 9%;
+}
+.navbar-new-top ul li{
+    margin-right: 8%;
+}
+.navbar-new-bottom{
+    background-color: #f7f7f7;
+    box-shadow: 0 5px 6px -2px rgba(0,0,0,.3);
+    border-top: 1px solid #e0e0e0;
+    margin-top: 1%;
+    height: 40px;
+}
+.navbar-new-bottom ul li{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.navbar-nav .nav-item a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 1s ease;
+}
+.navbar-nav .nav-item a:hover{
+    color: #0062cc;
+}
+.dropdown-menu.show{
+    background: #f8f9fa;
+    border-radius: 0;
+}
+.header-btn{
+    width: 161%;
+    border: none;
+    border-radius: 1rem;
+    padding: 10%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+#son{
+    border-top: 1px solid #e0e0e0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 150px;
+    margin: 20px;
+}
+.member{
+    padding-top: 100px;
+    padding-left: 20px;
+    text-align: center;
+}
+body{
+    background-image: url("백그라운드2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:rgb(179, 170, 158)
+}
+.house{
+    color:darkmagenta
+}
+#photoblock{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2%;
+    margin: 2%;
+
+}
+
+
+
+
+/*
+over-ride "Weak" message, show font in dark grey
+*/
+
+.progress-bar {
+    color: #333;
+} 
+
+/*
+Reference:
+http://www.bootstrapzen.com/item/135/simple-login-form-logo/
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+
+    .form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		
+
+		
+	}
+
+.login-form {
+	margin-top: 150px;
+    width: 400px;
+}
+
+form[role=login] {
+	color: #5d5d5d;
+	background: #f2f2f2;
+	padding: 26px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+	form[role=login] img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 35px;
+	}
+	form[role=login] input,
+	form[role=login] button {
+		font-size: 18px;
+		margin: 16px 0;
+	}
+	form[role=login] > div {
+		text-align: center;
+	}
+	
+.form-links {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 50px;
+}
+	.form-links a {
+		color: #fff;
+	}
